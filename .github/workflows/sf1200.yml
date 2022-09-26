@@ -9,10 +9,7 @@
 
 name: sf1200
 
-on:
-  push:
-    tags: 
-      - v*
+on: push
 
 env:
   GITHUB_TOKEN: ${{ github.token }}
